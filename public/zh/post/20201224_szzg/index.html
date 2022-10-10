@@ -1,0 +1,1300 @@
+<!DOCTYPE html><html lang="zh-Hans" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.0.0-beta.3 for Hugo" />
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="张平文" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="“进入大数据时代，数据应用场景拓展到了社会各个领域，GDP单一指标已经难以衡量数字经济的发展水平。政府、企业和个人等社会经济主体通过数字化、信息化和智能化技术进行连接、沟通、互动与交易，形成了围绕数据的流动循环、相互作用的社会经济生态系统，需要从数字生态的视角对此加以研究。”近日，中国科学院院士、北京大学副校长、北京大学大数据分析与应用技术国家工程实验室主任张平文接受人民网记者专访时表示。" />
+
+  
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/pzhang/css/wowchemy.9a500e22df4ed957a4a2988902827b04.css" />
+
+  
+
+
+
+  
+
+  
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/pzhang/zh/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/pzhang/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/pzhang/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="张平文" />
+  <meta property="og:url" content="https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/" />
+  <meta property="og:title" content="张平文院士：为建设数字中国探明新方向开辟新路径 | 张平文" />
+  <meta property="og:description" content="“进入大数据时代，数据应用场景拓展到了社会各个领域，GDP单一指标已经难以衡量数字经济的发展水平。政府、企业和个人等社会经济主体通过数字化、信息化和智能化技术进行连接、沟通、互动与交易，形成了围绕数据的流动循环、相互作用的社会经济生态系统，需要从数字生态的视角对此加以研究。”近日，中国科学院院士、北京大学副校长、北京大学大数据分析与应用技术国家工程实验室主任张平文接受人民网记者专访时表示。" /><meta property="og:image" content="https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/featured.png" />
+    <meta property="twitter:image" content="https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/featured.png" /><meta property="og:locale" content="zh-Hans" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2020-12-24T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2020-12-24T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/"
+  },
+  "headline": "张平文院士：为建设数字中国探明新方向开辟新路径",
+  
+  "image": [
+    "https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/featured.png"
+  ],
+  
+  "datePublished": "2020-12-24T00:00:00Z",
+  "dateModified": "2020-12-24T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "林露"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "张平文",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.math.pku.edu.cn/pzhang/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "“进入大数据时代，数据应用场景拓展到了社会各个领域，GDP单一指标已经难以衡量数字经济的发展水平。政府、企业和个人等社会经济主体通过数字化、信息化和智能化技术进行连接、沟通、互动与交易，形成了围绕数据的流动循环、相互作用的社会经济生态系统，需要从数字生态的视角对此加以研究。”近日，中国科学院院士、北京大学副校长、北京大学大数据分析与应用技术国家工程实验室主任张平文接受人民网记者专访时表示。"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>张平文院士：为建设数字中国探明新方向开辟新路径 | 张平文</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/pzhang/js/wowchemy-init.min.36bd468b4a66839fa971a4072975fa26.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="搜索...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/pzhang/zh/">张平文</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/pzhang/zh/">张平文</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pzhang/zh/#about"><span>个人简介</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pzhang/zh/#honors"><span>荣誉和奖励</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pzhang/zh/#featured"><span>著作</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pzhang/zh/digiteco/"><span>数字经济</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pzhang/zh/discipline_construction/"><span>学科建设</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pzhang/zh/#news"><span>新闻</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pzhang/zh/editors/"><span>编委</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pzhang/zh/students/"><span>学生</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pzhang/zh/courses/"><span>课程</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pzhang/zh/#contact"><span>联系方式</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="搜索"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>浅色</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>深色</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>自动</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>张平文院士：为建设数字中国探明新方向开辟新路径</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/pzhang/zh/authors/%E6%9E%97%E9%9C%B2/">林露</a></span>, <span >
+      <a href="/pzhang/zh/authors/%E6%9D%A8%E6%88%90/">杨成</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 24, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 分钟阅读时长
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 600px; max-height: 400px;">
+  <div style="position: relative">
+    <img src="/pzhang/zh/post/20201224_szzg/featured.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>人民网北京12月24日电（记者林露）
+“进入大数据时代，数据应用场景拓展到了社会各个领域，GDP单一指标已经难以衡量数字经济的发展水平。政府、企业和个人等社会经济主体通过数字化、信息化和智能化技术进行连接、沟通、互动与交易，形成了围绕数据的流动循环、相互作用的社会经济生态系统，需要从数字生态的视角对此加以研究。”近日，中国科学院院士、北京大学副校长、北京大学大数据分析与应用技术国家工程实验室主任张平文接受人民网记者专访时表示。</p>
+<p>张平文带领研究团队应用大数据的思维和方法，从多源、多方、多维、多角度对数字经济、数字政府和数字社会进行整体性评估，并将数字时代的社会经济系统命名为“数字生态”。</p>
+<h2 id="多方合力监测评估各地数字生态">多方合力监测评估各地数字生态</h2>
+<p>“对数字生态进行科学评估，是打造理想数字生态的先决条件。要全面、充分和精准地刻画数字生态，基于大数据平台的数据来源最为关键。”张平文介绍说，该研究团队依托北京大学大数据分析与应用技术国家工程实验室，联合具有全国代表性的互联网平台企业和高等院校等14家机构，共同成立“数字生态协同创新平台”，通过汇聚数据、整合资源、合作共享、互惠共赢机制，持续对全国各地的数字生态进行监测评估，定期向社会公布数字生态指数。</p>
+<p>据了解，数字生态指数2020提出了由数字基础、数字能力和数字应用构成的数字生态理论框架，由总指数和15项分指数构成，涉及2019年全国31个省级行政区(不包含港、澳、台地区)以及部分重点城市，能够监测国家、地方、产业等数字化发展与转型进展，为相关政府部门提供决策支持，助力国家工程实验室打造新型科技智库与社会服务平台。</p>
+<p>作为一项实际问题导向的重大交叉科学问题，数字生态指数研究是一项需长期迭代的复杂性创新工程。为此，研究团队建立了交叉科学性质的数字生态研究专家和团队，探索充分发挥应用数学、数据科学、计算机科学、统计学、社会学、经济学、管理学等交叉学科的优势进行相关研究。“未来，研究团队将继续完善数字生态理论体系构建、扩充数据来源、改进模型算法、增加实践案例总结等，为地方开展数字生态评估和企业数字化转型等提供重要参考，为建设数字中国探明新方向、开辟新路径。”张平文表示。</p>
+<h2 id="数字生态不应唯gdp论">“数字生态不应唯GDP论”</h2>
+<p>在张平文看来，数字生态不应该唯GDP论，而是应该探索多种发展模式。在“双循环”发展格局下，理想的数字生态是优质省级小循环，完善跨省中循环，健康国内大循环，以及共赢国际外循环。</p>
+<p>“各地需要在现况禀赋和结构基础之上，切合实际、因地制宜地遵循生态差异化的发展战略，准确定位需要融入的数字生态圈，并通过做大做强生态圈来发展自己。”张平文相信，要打造理想的数字生态，路径并不是唯一的。</p>
+<p>在监测产业数字化发展时，该研究团队发现数字能力是最关键的结构要素，凸显出数字人才和数字创新的重要性。张平文表示，数字经济不仅是技术密集型的，而且是智力密集型的。同时，以“新基建”为代表的数字基础设施对发展数字经济也非常重要。那些数字基础设施薄弱的省份，不仅数字经济发展受限，其数字政府建设（如网上政务服务能力）以及数字社会发展（如线上医疗、智慧交通和智慧环保等），也很难呈现出亮点。</p>
+<h2 id="数字强省强市建设需要迈过几道坎">数字强省强市建设需要迈过几道“坎”</h2>
+<p>张平文介绍说，目前各省数字生态四型联动，即全面领先型、赶超壮大型、发展成长型和蓄势突破型，他们与当地的经济发展水平显著相关。目前，北京、广东、上海和浙江属于全面领先型，不仅数字生态总指数遥遥领先，而且在数字基础、数字能力和数字应用的每个方面都可圈可点，基本实现省内小循环的理想数字生态。山东、福建、江苏、湖北、四川、河南、安徽和天津属于赶超壮大型，在数字基础和数字应用维度的很多方面实现了重要突破。贵州、陕西、湖南、江西、黑龙江、内蒙古、重庆、宁夏和河北属于发展成长型，受助于数字基础和数字应用成绩拉动，这些地方普遍进入数字生态发展成长期。海南、山西和辽宁等地区属于蓄势待发型，这些地区在数字应用领域表现都有亮点，未来几年在数字基础和数字能力方面补齐短板后将会进入发展新阶段。</p>
+<p>今年10月10日，第一期数字生态指数对外发布，从数字基础、数字能力和数字应用三个维度，对2019年全国31个省级行政区以及部分重点城市的数字生态发展水平进行了科学评估。在张平文看来，在数字强省强市建设的过程中，首先要迈过的是数字能力这道“坎”。尤其是在数字人才和数字创新领域需要各地有所突破，这正是第二梯队省份进一步发展成为全面领先型的难点所在。其次，要迈过数字基础设施这道“坎”。他说，以“新基建”为代表，各地仍需加大对于5G、物联网、工业互联网、卫星互联网等通信网络基础设施，人工智能、云计算、区块链等技术基础设施，以及数据中心、智能计算中心等算力基础设施的投资与建设。</p>
+<p>张平文表示，数字生态的龙头还是数字经济，即新一代信息技术和经济的融合。目前，我国数字经济与实体经济深度融合的过程还处于初期阶段，仍有不少问题需要加以重视。从宏观层面来看，各地区最好能开展差异化的数字生态模式，这样将有助于形成区域内循环。从微观层面来看，每个社会经济主体，包括政府、企业和个人等，需要考虑重点在哪个层级的数字生态循环体系下发展，扮演什么样的数字生态角色，如何与其他主体互动并创造最大价值，以及怎样平衡合作与竞争、共生与脱钩、开放与闭环等深层次问题。</p>
+<p>来源：人民网-知识产权频道</p>
+<p><a href="http://ip.people.com.cn/n1/2020/1224/c136655-31977463.html" target="_blank" rel="noopener">张平文院士：为建设数字中国探明新方向开辟新路径</a></p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/pzhang/zh/tag/%E5%BC%A0%E5%B9%B3%E6%96%87%E9%99%A2%E5%A3%AB%E8%AE%BF%E8%B0%88/">张平文院士访谈</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/&amp;text=%e5%bc%a0%e5%b9%b3%e6%96%87%e9%99%a2%e5%a3%ab%ef%bc%9a%e4%b8%ba%e5%bb%ba%e8%ae%be%e6%95%b0%e5%ad%97%e4%b8%ad%e5%9b%bd%e6%8e%a2%e6%98%8e%e6%96%b0%e6%96%b9%e5%90%91%e5%bc%80%e8%be%9f%e6%96%b0%e8%b7%af%e5%be%84" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/&amp;t=%e5%bc%a0%e5%b9%b3%e6%96%87%e9%99%a2%e5%a3%ab%ef%bc%9a%e4%b8%ba%e5%bb%ba%e8%ae%be%e6%95%b0%e5%ad%97%e4%b8%ad%e5%9b%bd%e6%8e%a2%e6%98%8e%e6%96%b0%e6%96%b9%e5%90%91%e5%bc%80%e8%be%9f%e6%96%b0%e8%b7%af%e5%be%84" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e5%bc%a0%e5%b9%b3%e6%96%87%e9%99%a2%e5%a3%ab%ef%bc%9a%e4%b8%ba%e5%bb%ba%e8%ae%be%e6%95%b0%e5%ad%97%e4%b8%ad%e5%9b%bd%e6%8e%a2%e6%98%8e%e6%96%b0%e6%96%b9%e5%90%91%e5%bc%80%e8%be%9f%e6%96%b0%e8%b7%af%e5%be%84&amp;body=https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/&amp;title=%e5%bc%a0%e5%b9%b3%e6%96%87%e9%99%a2%e5%a3%ab%ef%bc%9a%e4%b8%ba%e5%bb%ba%e8%ae%be%e6%95%b0%e5%ad%97%e4%b8%ad%e5%9b%bd%e6%8e%a2%e6%98%8e%e6%96%b0%e6%96%b9%e5%90%91%e5%bc%80%e8%be%9f%e6%96%b0%e8%b7%af%e5%be%84" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%e5%bc%a0%e5%b9%b3%e6%96%87%e9%99%a2%e5%a3%ab%ef%bc%9a%e4%b8%ba%e5%bb%ba%e8%ae%be%e6%95%b0%e5%ad%97%e4%b8%ad%e5%9b%bd%e6%8e%a2%e6%98%8e%e6%96%b0%e6%96%b9%e5%90%91%e5%bc%80%e8%be%9f%e6%96%b0%e8%b7%af%e5%be%84%20https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.math.pku.edu.cn/pzhang/zh/post/20201224_szzg/&amp;title=%e5%bc%a0%e5%b9%b3%e6%96%87%e9%99%a2%e5%a3%ab%ef%bc%9a%e4%b8%ba%e5%bb%ba%e8%ae%be%e6%95%b0%e5%ad%97%e4%b8%ad%e5%9b%bd%e6%8e%a2%e6%98%8e%e6%96%b0%e6%96%b9%e5%90%91%e5%bc%80%e8%be%9f%e6%96%b0%e8%b7%af%e5%be%84" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>相关</h3>
+    <ul>
+      
+      <li><a href="/pzhang/zh/post/20210123_szjj/">易炼红主持召开省政府集体学习会时强调主动出击牢牢把握数字经济发展机遇 加快打造数字经济发展国家级重要基地</a></li>
+      
+      <li><a href="/pzhang/zh/post/20201121_cqzf/">重庆专访：北大副校长张平文——与重庆的校市合作，走得很实</a></li>
+      
+      <li><a href="/pzhang/zh/post/20201020_szbwq/">走进这座古院，陷入数字包围圈......</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    <script src="/pzhang/js/_vendor/bootstrap.bundle.min.f8467c1d3e2740d8f3195894a328004e.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/pzhang/zh/js/wowchemy.min.f5f527e7cfee3f1cbe5fdae1bb28cdc8.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

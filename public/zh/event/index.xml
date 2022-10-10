@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | 张平文</title>
+    <link>https://www.math.pku.edu.cn/pzhang/zh/event/</link>
+      <atom:link href="https://www.math.pku.edu.cn/pzhang/zh/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.math.pku.edu.cn/pzhang/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://www.math.pku.edu.cn/pzhang/zh/event/</link>
+    </image>
+    
+    <item>
+      <title>《教育数智化的一些思考》</title>
+      <link>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%99%E8%82%B2%E6%95%B0%E6%99%BA%E5%8C%96%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/</link>
+      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%99%E8%82%B2%E6%95%B0%E6%99%BA%E5%8C%96%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>《计算与数学的共进》</title>
+      <link>https://www.math.pku.edu.cn/pzhang/zh/talk/%E8%AE%A1%E7%AE%97%E4%B8%8E%E6%95%B0%E5%AD%A6%E7%9A%84%E5%85%B1%E8%BF%9B/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.math.pku.edu.cn/pzhang/zh/talk/%E8%AE%A1%E7%AE%97%E4%B8%8E%E6%95%B0%E5%AD%A6%E7%9A%84%E5%85%B1%E8%BF%9B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数字经济与数字生态</title>
+      <link>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E%E4%B8%8E%E6%95%B0%E5%AD%97%E7%94%9F%E6%80%81/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E%E4%B8%8E%E6%95%B0%E5%AD%97%E7%94%9F%E6%80%81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数字经济发展态势</title>
+      <link>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>《数学促进企业创新》</title>
+      <link>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%B0%E5%AD%A6%E4%BF%83%E8%BF%9B%E4%BC%81%E4%B8%9A%E5%88%9B%E6%96%B0/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%B0%E5%AD%A6%E4%BF%83%E8%BF%9B%E4%BC%81%E4%B8%9A%E5%88%9B%E6%96%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数字经济与大数据技术</title>
+      <link>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E%E4%B8%8E%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E%E4%B8%8E%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>《数据科学融通应用数学》</title>
+      <link>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E8%9E%8D%E9%80%9A%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6/</link>
+      <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.math.pku.edu.cn/pzhang/zh/talk/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E8%9E%8D%E9%80%9A%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
